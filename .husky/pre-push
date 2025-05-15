@@ -4,3 +4,7 @@
 echo -e "\n## Fetching main branch...\n"
 git pull origin main
 echo -e  "\n## Main branch fetched ...\n"
+
+echo -e "\n## Building Project...\n"
+npm run build
+echo -e  "\n## Project built ...\n"
