@@ -1,1 +1,6 @@
-npm test
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+echo -e "\n## Running linting test...\n"
+npm run lint
+echo -e  "\n## Linting test completed ...\n"
